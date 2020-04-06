@@ -12,9 +12,10 @@ public class Replacer
     public static void main(String[] args)
     {
 
-        File testFile = new File("C:\\Users\\User\\Videos\\untitled1\\lal.txt");
+        File testFile = new File("lal.txt");
         testFile.getAbsolutePath();
         _encoding = "utf-8";
+
 
         GetContents(testFile);
 
